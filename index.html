@@ -7,30 +7,43 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
   <body>
-    <button class="btn btn-primary w-100 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#homesteadsection" aria-expanded="false" aria-controls="homesteadSection">
-      Homesteading
-    </button>
-    <h2>Homesteading</h2>
-      <div class="collapse" id="homesteadsection">
-        <div class="card card-body">
-          <ul>
-            <li><a href='https://www.thegreenhornguides.com/post/planning-your-garden-to-feed-your-family'>Greenhorn Grove </a></li>
-            <li><a href="https://www.reddit.com/r/homestead/"> Reddit - Homesteading </a></li>
-          </ul>
+    <div class="container">
+      <div class="collapsible-section">
+        <button class="btn btn-primary w-100 mb-3" type="button">
+          Homesteading
+        </button>
+        <div class="collapse">
+          <div class="card card-body">
+            <ul>
+              <li><a href='https://www.thegreenhornguides.com/post/planning-your-garden-to-feed-your-family'>Greenhorn Grove </a></li>
+              <li><a href="https://www.reddit.com/r/homestead/"> Reddit - Homesteading </a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-    <h2>Learning Code</h2>
-      <ul>
-        <li><a href="https://spring.io/guides/gs/serving-web-content#initial">Spring Tutorial</a></li>
-        <li><a href="https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters">Spring Github Examples</a></li>
-      </ul>
-    <h2>Trello</h2>
-      <ul>
-        <li><a href="https://trello.com/b/0i3AUK3V/to-do-list"></a>To Do List</li>
-        <li><a href="https://trello.com/b/aCF8tsMJ/shopping"></a>Shopping</li>
-        <li><a href="https://trello.com/b/Bijsjx7z/hobby"></a>Hobbies</li>
-      </ul>
+    </div>
+
+      <h2>Learning Code</h2>
+        <ul>
+          <li><a href="https://spring.io/guides/gs/serving-web-content#initial">Spring Tutorial</a></li>
+          <li><a href="https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters">Spring Github Examples</a></li>
+        </ul>
+      <h2>Trello</h2>
+        <ul>
+          <li><a href="https://trello.com/b/0i3AUK3V/to-do-list"></a>To Do List</li>
+          <li><a href="https://trello.com/b/aCF8tsMJ/shopping"></a>Shopping</li>
+          <li><a href="https://trello.com/b/Bijsjx7z/hobby"></a>Hobbies</li>
+        </ul>
     <!-- Bootstrap JS (necessary for collapse functionality) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Use JavaScript to toggle collapsible sections dynamically
+      document.querySelectorAll('.collapsible-section button').forEach(button => {
+          button.addEventListener('click', function() {
+              const content = this.nextElementSibling;
+              const collapseInstance = new bootstrap.Collapse(content);
+              collapseInstance.toggle();
+          });
+      });
+    </script>
   </body>
 </html>
