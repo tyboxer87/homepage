@@ -1,0 +1,48 @@
+{
+    "categories": [
+      {
+        "name": "Homesteading",
+        "pages": [
+          {
+            "title": "Greenhorn Grove",
+            "url": "https://www.thegreenhornguides.com/post/planning-your-garden-to-feed-your-family"
+          },
+          {
+            "title": "Reddit - Homesteading",
+            "url": "https://www.reddit.com/r/homestead/"
+          }
+        ]
+      },
+      {
+        "name": "Learning Code",
+        "pages": [
+          {
+            "title": "Spring Tutorial",
+            "url": "https://spring.io/guides/gs/serving-web-content#initial"
+          },
+          {
+            "title": "Spring Github Examples",
+            "url": "https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters"
+          }
+        ]
+      },
+      {
+        "name": "Trello",
+        "pages": [
+          {
+            "title": "To Do List",
+            "url": "https://trello.com/b/0i3AUK3V/to-do-list"
+          },
+          {
+            "title": "Shopping",
+            "url": "https://trello.com/b/aCF8tsMJ/shopping"
+          },
+          {
+            "title": "Hobbies",
+            "url": "https://trello.com/b/Bijsjx7z/hobby"
+          }
+        ]
+      }
+    ]
+  }
+  
