@@ -57,30 +57,29 @@
   <div id="categories-container"></div>
 
   <script>
-    // Load the JSON data
     const loadCategories = async () => {
       try {
-        // Fetch the JSON file (update the path if necessary)
-        const response = await fetch('links.json');
+        // Ensure the JSON file path is correct
+        const response = await fetch('./categories.json');
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
         const data = await response.json();
 
-        // Render the categories and pages
         const container = document.getElementById('categories-container');
         data.categories.forEach(category => {
-          // Create a section for each category
           const categorySection = document.createElement('section');
           const categoryTitle = document.createElement('h2');
           categoryTitle.textContent = category.name;
           categorySection.appendChild(categoryTitle);
 
-          // Create a list of pages for the category
           const pageList = document.createElement('ul');
           category.pages.forEach(page => {
             const listItem = document.createElement('li');
             const link = document.createElement('a');
             link.textContent = page.title;
             link.href = page.url;
-            link.target = '_blank'; // Opens the link in a new tab
+            link.target = '_blank';
             listItem.appendChild(link);
             pageList.appendChild(listItem);
           });
@@ -90,10 +89,11 @@
         });
       } catch (error) {
         console.error('Error loading JSON data:', error);
+        document.getElementById('categories-container').textContent =
+          'Failed to load content. Please try again later.';
       }
     };
 
-    // Call the function to load and render categories
     loadCategories();
   </script>
 </body>
