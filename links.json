@@ -47,6 +47,19 @@
           }
         ]
       }
+      {
+        "name": "Writing",
+        "pages": [
+          {
+            "title": "Writing SubReddit",
+            "url": "https://www.reddit.com/r/writing/"
+          },
+          {
+            "title": "Sci-Fi Writing SubReddit",
+            "url": "https://www.reddit.com/r/scifiwriting/"
+          },
+        ]
+      }
     ]
   }
   
