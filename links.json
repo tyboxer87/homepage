@@ -63,6 +63,23 @@
             "url": "https://www.reddit.com/r/scifiwriting/"
           }
         ]
+      },
+      {
+        "name": "Comics",
+        "pages": [
+          {
+            "title": "XKCD",
+            "url": "https://xkcd.com/"
+          },
+          {
+            "title": "SMBC",
+            "url": "https://www.smbc-comics.com/"
+          },
+          {
+            "title": "PizzaCake",
+            "url": "https://pizzacakecomic.com/"
+          }
+        ]
       }
     ]
   }
