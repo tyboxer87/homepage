@@ -35,23 +35,6 @@
         ]
       },
       {
-        "name": "Trello",
-        "pages": [
-          {
-            "title": "To Do List",
-            "url": "https://trello.com/b/0i3AUK3V/to-do-list"
-          },
-          {
-            "title": "Shopping",
-            "url": "https://trello.com/b/aCF8tsMJ/shopping"
-          },
-          {
-            "title": "Hobbies",
-            "url": "https://trello.com/b/Bijsjx7z/hobby"
-          }
-        ]
-      },
-      {
         "name": "Writing",
         "pages": [
           {
@@ -78,6 +61,23 @@
           {
             "title": "PizzaCake",
             "url": "https://pizzacakecomic.com/"
+          }
+        ]
+      },
+      {
+        "name": "3D Printing",
+        "pages": [
+          {
+            "title": "Printables",
+            "url": "https://www.printables.com/"
+          },
+          {
+            "title": "Thingiverse",
+            "url": "https://www.thingiverse.com/"
+          },
+          {
+            "title": "3D Printing News",
+            "url": "https://all3dp.com/3d-printing-news/"
           }
         ]
       }
