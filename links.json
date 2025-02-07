@@ -1,40 +1,6 @@
 {
     "categories": [
       {
-        "name": "Homesteading",
-        "pages": [
-          {
-            "title": "Greenhorn Grove",
-            "url": "https://www.thegreenhornguides.com/post/planning-your-garden-to-feed-your-family"
-          },
-          {
-            "title": "Reddit - Homesteading",
-            "url": "https://www.reddit.com/r/homestead/"
-          },
-          {
-            "title": "Reddit - Permaculture",
-            "url": "https://www.reddit.com/r/permaculture/"
-          },
-          {
-            "title": "Permies",
-            "url": "http://permies.com/"
-          }
-        ]
-      },
-      {
-        "name": "Learning Code",
-        "pages": [
-          {
-            "title": "Spring Tutorial",
-            "url": "https://spring.io/guides/gs/serving-web-content#initial"
-          },
-          {
-            "title": "Spring Github Examples",
-            "url": "https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters"
-          }
-        ]
-      },
-      {
         "name": "Writing",
         "pages": [
           {
@@ -80,7 +46,41 @@
             "url": "https://all3dp.com/3d-printing-news/"
           }
         ]
-      }
+      },
+      {
+        "name": "Podcasts",
+        "pages": [
+          {
+            "title": "https://www.patreon.com/philosophizethis/",
+            "url": ""
+          },
+          {
+            "title": "Planet Money",
+            "url": "https://www.npr.org/podcasts/510289/planet-money"
+          }
+        ]
+      },
+      {
+        "name": "Homesteading",
+        "pages": [
+          {
+            "title": "Greenhorn Grove",
+            "url": "https://www.thegreenhornguides.com/post/planning-your-garden-to-feed-your-family"
+          },
+          {
+            "title": "Reddit - Homesteading",
+            "url": "https://www.reddit.com/r/homestead/"
+          },
+          {
+            "title": "Reddit - Permaculture",
+            "url": "https://www.reddit.com/r/permaculture/"
+          },
+          {
+            "title": "Permies",
+            "url": "http://permies.com/"
+          }
+        ]
+      },
     ]
   }
   
